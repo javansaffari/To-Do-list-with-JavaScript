@@ -1,0 +1,58 @@
+.content {
+    width: 50%;
+    margin: 0 auto;
+    font-family: tahoma;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 15px 0;
+}
+
+input {
+    padding: 6px;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid #9E9E9E;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    padding: 6px 20px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid #2395F2;
+    background: #2395F2;
+    color: #fff;
+}
+
+button:hover {
+    border: 1px solid #1162a5;
+    background: #1162a5;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#result span:first-child {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    cursor: pointer;
+    overflow: auto;
+}
+
+#result span:last-child {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
